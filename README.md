@@ -1,9 +1,5 @@
 # Introduction
 
-original | Out | source |
---- | --- | --- |
-<img src="./images/benti.png"> | <img src="./images/benti_out.jpg"> | [youtube](https://www.youtube.com/watch?v=nwMU-E1qmko&t=27s)|
-<img src="./images/kaguya_season_1.png"> | <img src="./images/kaguya_season_1_out.jpg"> | [youtube](https://www.youtube.com/watch?v=uGrLP4189QQ&t=55s) |
 
 
 This repositroy developed based on [TinaFace](https://arxiv.org/abs/2011.13183) and [vedadet](https://github.com/Media-Smart/vedadet).
@@ -166,6 +162,12 @@ c. Inference
 ```shell
 CUDA_VISIBLE_DEVICES="0" python tools/infer.py configs/infer/anime_face_detection/animeface.py image_path
 ```
+## More inference result
+
+original | Out | source |
+--- | --- | --- |
+<img src="./images/benti.png"> | <img src="./images/benti_out.jpg"> | [youtube](https://www.youtube.com/watch?v=nwMU-E1qmko&t=27s)|
+<img src="./images/kaguya_season_1.png"> | <img src="./images/kaguya_season_1_out.jpg"> | [youtube](https://www.youtube.com/watch?v=uGrLP4189QQ&t=55s) |
 
 ## Contact
 
