@@ -1,6 +1,6 @@
 # Introduction
 
-<img src="./images/demo.gif"> 
+<img src="./images/demo_out.gif"> 
 
 source of above video [[youtube]](https://www.youtube.com/watch?v=6LAGPO8Vuw4)
 
