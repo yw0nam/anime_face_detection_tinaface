@@ -44,8 +44,8 @@ We have tested the following versions of OS and softwares:
 a. Create a conda virtual environment and activate it.
 
 ```shell
-conda create -n anime_face_detection_tinaface python=3.8.5 -y
-conda activate anime_face_detection_tinaface
+conda create -n vedadet python=3.8.5 -y
+conda activate vedadet
 ```
 
 b. Install PyTorch and torchvision following the [official instructions](https://pytorch.org/), *e.g.*,
@@ -57,9 +57,9 @@ conda install pytorch torchvision -c pytorch
 c. Clone the vedadet repository.
 
 ```shell
-git clone https://github.com/yw0nam/anime_face_detection_tinaface
-cd anime_face_detection_tinaface
-anime_face_detection_tinaface=${PWD}
+git clone https://github.com/Media-Smart/vedadet.git
+cd vedadet
+vedadet_root=${PWD}
 ```
 
 d. Install vedadet.
@@ -68,6 +68,7 @@ d. Install vedadet.
 pip install -r requirements/build.txt
 pip install -v -e .
 ```
+
 
 e. Other libraries.
 
