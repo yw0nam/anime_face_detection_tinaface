@@ -159,11 +159,18 @@ b. Config
 
 Modify some configuration accordingly in the config file like `configs/infer/anime_face_detection/animeface.py`
 
+### For image
 c. Inference
 
 ```shell
 CUDA_VISIBLE_DEVICES="0" python tools/infer.py configs/infer/anime_face_detection/animeface.py image_path
 ```
+### For video(It is not stable yet. this code developed from [cheese-roll](https://github.com/cheese-roll/light-anime-face-detector))
+```shell
+CUDA_VISIBLE_DEVICES="0" python tools/infer_video.py configs/infer/anime_face_detection/animeface.py -i input_video_path -o out_video_path
+```
+
+
 ## More inference result
 
 original | Out | source |
