@@ -94,7 +94,6 @@ vedadet
 ```
 b. Run the following code to generate txt file of xmls.
 ```shell
-cd ${vedadet_root}
 bash process_xml.sh
 ```
 c. Final data structure as follow
