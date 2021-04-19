@@ -52,7 +52,7 @@ b. Install PyTorch and torchvision following the [official instructions](https:/
 conda install pytorch torchvision -c pytorch
 ```
 
-c. Clone the vedadet repository.
+c. Clone the anime_face_detection_tinaface repository.
 
 ```shell
 git clone https://github.com/yw0nam/anime_face_detection_tinaface.git
