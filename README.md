@@ -37,13 +37,13 @@ We have tested the following versions of OS and softwares:
 - PyTorch 1.6.0
 - Python 3.8.5
 
-### Install vedadet
+### Install animeface
 
 a. Create a conda virtual environment and activate it.
 
 ```shell
-conda create -n vedadet python=3.8.5 -y
-conda activate vedadet
+conda create -n animeface python=3.8.5 -y
+conda activate animeface
 ```
 
 b. Install PyTorch and torchvision following the [official instructions](https://pytorch.org/), *e.g.*,
@@ -57,10 +57,9 @@ c. Clone the vedadet repository.
 ```shell
 git clone https://github.com/yw0nam/anime_face_detection_tinaface.git
 cd anime_face_detection_tinaface
-vedadet_root=${PWD}
 ```
 
-d. Install vedadet.
+d. Install animeface.
 
 ```shell
 pip install -r requirements/build.txt
