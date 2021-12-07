@@ -6,7 +6,8 @@ source of above video [[youtube]](https://www.youtube.com/watch?v=6LAGPO8Vuw4)
 
 This repositroy developed based on [TinaFace](https://arxiv.org/abs/2011.13183) and [vedadet](https://github.com/Media-Smart/vedadet).
 
-The model is trained by data from [anime-face-detector](https://github.com/qhgz2013/anime-face-detector)(Train 6000, validation 640) and [our custom pipeline](https://github.com/Mirai-Gadget-Lab/Anime-Face-Extract) for extract data from anime videos. We extract the datas from follwoing animes. 
+The model is trained by data from [anime-face-detector](https://github.com/qhgz2013/anime-face-detector)(Train 6000, validation 640).
+We collect data using [our custom pipeline](https://github.com/Mirai-Gadget-Lab/Anime-Face-Extract) from anime videos. We extract the datas from follwoing animes. 
 
 name | season |
 --- | --- | 
