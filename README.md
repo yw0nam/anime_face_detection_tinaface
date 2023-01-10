@@ -150,16 +150,12 @@ CUDA_VISIBLE_DEVICES="0" python tools/test.py configs/trainval/anime_face_detect
 
 ## Inference
 
-a. Download weight.
-
-Download weight here [Google Drive](https://drive.google.com/file/d/1_3rqrqSZllbyObuxGbLeLtf2z_gUMfjr/view?usp=sharing).
-
-b. Config
+a. Config
 
 Modify some configuration accordingly in the config file like `configs/infer/anime_face_detection/animeface.py`
 
 ### For image
-c. Inference
+b. Inference
 
 ```shell
 CUDA_VISIBLE_DEVICES="0" python tools/infer.py configs/infer/anime_face_detection/animeface.py image_path
